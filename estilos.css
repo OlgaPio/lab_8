@@ -1,5 +1,9 @@
+body{
+    background-color: antiquewhite;
+}
+
 h1{
-    color:rgb(31, 152, 114); 
+    color:rgb(122, 31, 152); 
     font-size: 25px;
     text-align: center;
 }
@@ -9,13 +13,46 @@ img{
 }
 
 p{
-    color: rgb(60, 0, 255); 
+    color: rgb(86, 138, 156); 
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 20px;
 }
 
 li{
-    text-align: center;
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(67, 43, 226);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+h2{
+    text-align: center;
+}
+
+.mi-div {
+    background-color: #f0f8ff;
+    border: 2px solid #4682b4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
